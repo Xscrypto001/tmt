@@ -1346,7 +1346,7 @@ color:green;
     
 .portfolio-item {
     flex: 1;
-    margin: 10px;
+    margin: 1px;
     max-width: 800px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1515,17 +1515,18 @@ body{
 }
 
 @media (max-width: 768px) {
-    .portfolio-item {
-        ;
-        margin: 0px;
+     .portfolio-item {
+        flex: 1 0  calc(120% - 6px);
+        margin-left: 5px;
+        width:900px;
     }
 }
 
 @media (min-width: 769px) {
     .portfolio-item {
-        f;
+        flex: 1 0 calc(34.33% - 20px);
     }
-}
+
 p{
     font-size:17px;
     color:#1D1B26;
